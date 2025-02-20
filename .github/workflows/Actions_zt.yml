@@ -1,0 +1,36 @@
+name: Run OpenWrt on QEMU
+
+on:
+  workflow_dispatch:    # 手动触发
+  schedule:
+   # - cron: '0 */5 * * *'  # 5小时一次
+
+jobs:
+  openwrt-qemu:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install QEMU
+        run: sudo apt update && sudo apt install -y qemu-system-aarch64
+
+      - name: Download OpenWrt Images
+        run: |
+          curl -o openwrt-armvirt-64-generic-ext4-rootfs.img.gz http://linzifu.xyz:8081/openwrt-armvirt-64-generic-ext4-rootfs.img.gz
+          curl -o openwrt-armvirt-64-generic-kernel.bin.gz http://linzifu.xyz:8081/openwrt-armvirt-64-generic-kernel.bin.gz
+
+      - name: Gzip -d OpenWrt Images
+        run: |
+          gzip -d openwrt-armvirt-64-generic-ext4-rootfs.img.gz
+          gzip -d openwrt-armvirt-64-generic-kernel.bin.gz
+
+      - name: Run OpenWrt in QEMU
+        run: |
+          qemu-system-aarch64 -M virt -m 1024m \
+            -kernel openwrt-armvirt-64-generic-kernel.bin \
+            -append "root=fe00" \
+            -hda openwrt-armvirt-64-generic-ext4-rootfs.img \
+            -no-reboot -nographic \
+            -cpu cortex-a76 -smp 4 \
+            -net nic -net user,id=wan,hostfwd=tcp::7080-:80,hostfwd=tcp::7022-:22
+
+      - name: Wait for 5 hours
+        run: sleep 18000  # 如果需要等待，才用 sleep
