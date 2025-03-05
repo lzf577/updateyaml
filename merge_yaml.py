@@ -57,8 +57,8 @@ def merge_yaml(file1, file2, output_file):
 if __name__ == "__main__":
     file1 = './configs/config1.yaml'
     file2 = './configs/config2.yaml'
-    merged_yaml = merge_yaml(file1, file2, "./configs/config_merged.yaml")
+    merged_yaml = merge_yaml(file1, file2, "./configs/config3.yaml")
     if merged_yaml is not None:  # 检查 merge_yaml 是否成功
-        print("YAML文件合并完成，已保存到 ./configs/config_merged.yaml")
+        print("YAML文件合并完成，已保存到 ./configs/config3.yaml")
     else:
         print("YAML合并失败")
