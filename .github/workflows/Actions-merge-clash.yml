@@ -3,7 +3,7 @@ name: Actions-merge-clash-yaml
 on:
   workflow_dispatch:    # 手动触发
   schedule:
-    - cron: '0 */8 * * *'  # 8小时一次
+    - cron: '0 */24 * * *'  # 24小时一次
 
 jobs:
   update_yaml_configs:
