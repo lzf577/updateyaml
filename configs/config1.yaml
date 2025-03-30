@@ -6,17 +6,17 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: CFnat, server: 127.0.0.1, port: 1234, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: true, tfo: false, skip-cert-verify: true, servername: little-thunder-d99c.linzf5039.workers.dev, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点, server: 103.21.244.110, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 2, server: 104.16.195.253, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 3, server: 104.24.252.84, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 4, server: 172.64.151.205, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 5, server: 103.21.244.20, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 6, server: 104.16.114.169, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 7, server: 104.24.209.236, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 8, server: 141.101.72.246, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 9, server: 172.64.144.66, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 10, server: 188.114.101.210, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 11, server: 190.93.247.66, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点, server: 103.21.244.56, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 2, server: 104.16.146.84, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 3, server: 104.24.202.62, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 4, server: 172.64.28.64, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 5, server: 103.21.244.207, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 6, server: 104.16.120.229, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 7, server: 104.24.93.116, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 8, server: 141.101.89.51, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 9, server: 172.64.216.163, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 10, server: 188.114.101.38, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 11, server: 190.93.245.242, port: 80, type: vless, uuid: 256b17d4-8da6-4eb5-84a9-f1128e650ccd, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -447,7 +447,6 @@ rules:
   - DOMAIN-SUFFIX,mobclix.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mobgi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mobisage.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,mobvista.com,🛑 全球拦截
   - DOMAIN-SUFFIX,moogos.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mopub.com,🛑 全球拦截
   - DOMAIN-SUFFIX,moquanad.com,🛑 全球拦截
@@ -457,7 +456,6 @@ rules:
   - DOMAIN-SUFFIX,mzy2014.com,🛑 全球拦截
   - DOMAIN-SUFFIX,networkbench.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ninebox.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ntalker.com,🛑 全球拦截
   - DOMAIN-SUFFIX,nylalobghyhirgh.com,🛑 全球拦截
   - DOMAIN-SUFFIX,o2omobi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,oadz.com,🛑 全球拦截
@@ -1849,6 +1847,45 @@ rules:
   - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
   - DOMAIN-SUFFIX,edgedatg.com,🚀 节点选择
   - DOMAIN-SUFFIX,go.com,🚀 节点选择
+  - DOMAIN-KEYWORD,anthropic,🚀 节点选择
+  - DOMAIN-KEYWORD,claude,🚀 节点选择
+  - DOMAIN-KEYWORD,openai,🚀 节点选择
+  - DOMAIN,ai.google.dev,🚀 节点选择
+  - DOMAIN,api.githubcopilot.com,🚀 节点选择
+  - DOMAIN,api.groq.com,🚀 节点选择
+  - DOMAIN,api.together.xyz,🚀 节点选择
+  - DOMAIN,bard.google.com,🚀 节点选择
+  - DOMAIN,console.groq.com,🚀 节点选择
+  - DOMAIN,copilot-proxy.githubusercontent.com,🚀 节点选择
+  - DOMAIN,gemini.google.com,🚀 节点选择
+  - DOMAIN,generativelanguage.googleapis.com,🚀 节点选择
+  - DOMAIN,sydney.bing.com,🚀 节点选择
+  - DOMAIN-SUFFIX,ai.azure.com,🚀 节点选择
+  - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
+  - DOMAIN-SUFFIX,auth0.com,🚀 节点选择
+  - DOMAIN-SUFFIX,bard.google.com,🚀 节点选择
+  - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
+  - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点选择
+  - DOMAIN-SUFFIX,copilot.cloud.microsoft,🚀 节点选择
+  - DOMAIN-SUFFIX,copilot.microsoft.com,🚀 节点选择
+  - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点选择
+  - DOMAIN-SUFFIX,featuregates.org,🚀 节点选择
+  - DOMAIN-SUFFIX,gemini.google.com,🚀 节点选择
+  - DOMAIN-SUFFIX,grazie.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,grazie.aws.intellij.net,🚀 节点选择
+  - DOMAIN-SUFFIX,identrust.com,🚀 节点选择
+  - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
+  - DOMAIN-SUFFIX,intercomcdn.com,🚀 节点选择
+  - DOMAIN-SUFFIX,makersuite.google.com,🚀 节点选择
+  - DOMAIN-SUFFIX,meta.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,mistral.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,oaistatic.com,🚀 节点选择
+  - DOMAIN-SUFFIX,oaiusercontent.com,🚀 节点选择
+  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 节点选择
+  - DOMAIN-SUFFIX,perplexity.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,sora.com,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,abema.io,🚀 节点选择
   - DOMAIN-SUFFIX,abema.tv,🚀 节点选择
@@ -3213,66 +3250,95 @@ rules:
   - DOMAIN-SUFFIX,cmbchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,95516.com,🎯 全球直连
   - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
-  - IP-CIDR,8.208.0.0/12,🎯 全球直连,no-resolve
+  - IP-CIDR,8.209.32.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,8.209.40.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,8.209.48.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,8.210.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.128.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.144.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.152.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.208.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.224.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,8.212.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,8.216.0.0/13,🎯 全球直连,no-resolve
   - IP-CIDR,14.1.112.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,41.222.240.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,41.223.119.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,43.242.168.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,45.112.212.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,47.52.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,47.56.0.0/15,🎯 全球直连,no-resolve
-  - IP-CIDR,47.74.0.0/15,🎯 全球直连,no-resolve
-  - IP-CIDR,47.76.0.0/14,🎯 全球直连,no-resolve
-  - IP-CIDR,47.80.0.0/12,🎯 全球直连,no-resolve
-  - IP-CIDR,47.235.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,47.236.0.0/14,🎯 全球直连,no-resolve
-  - IP-CIDR,47.240.0.0/14,🎯 全球直连,no-resolve
-  - IP-CIDR,47.244.0.0/15,🎯 全球直连,no-resolve
-  - IP-CIDR,47.246.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,47.250.0.0/15,🎯 全球直连,no-resolve
-  - IP-CIDR,47.252.0.0/15,🎯 全球直连,no-resolve
-  - IP-CIDR,47.254.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.75.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.64.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.82.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.91.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.100.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,47.90.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,47.91.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,47.92.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,47.240.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.242.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.244.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.5.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.16.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.60.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.65.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,59.82.0.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,59.82.240.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,59.82.248.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,72.254.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,103.38.56.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,103.52.76.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,103.206.40.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,110.76.21.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,110.76.23.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,112.125.0.0/17,🎯 全球直连,no-resolve
-  - IP-CIDR,116.251.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.79.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.80.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.84.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.88.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.93.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.94.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.102.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.104.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.112.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.124.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,119.38.208.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,119.38.224.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,119.42.224.0/20,🎯 全球直连,no-resolve
-  - IP-CIDR,139.95.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,140.205.1.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,140.205.122.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,147.139.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,149.129.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,155.102.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,161.117.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,163.181.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,170.33.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,198.11.128.0/18,🎯 全球直连,no-resolve
-  - IP-CIDR,205.204.96.0/19,🎯 全球直连,no-resolve
-  - IP-CIDR,19.28.0.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,149.129.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,163.181.32.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,163.181.40.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,170.33.0.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,198.11.141.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,198.11.184.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.104.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.117.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.122.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.124.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,45.40.192.0/19,🎯 全球直连,no-resolve
-  - IP-CIDR,49.51.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.56.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.60.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.110.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.112.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,62.234.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,94.191.0.0/17,🎯 全球直连,no-resolve
   - IP-CIDR,103.7.28.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.116.50.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,103.231.60.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,109.244.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,111.30.128.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,111.30.136.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,111.30.139.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,111.30.140.0/23,🎯 全球直连,no-resolve
   - IP-CIDR,115.159.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,119.28.0.0/15,🎯 全球直连,no-resolve
-  - IP-CIDR,120.88.56.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.64.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.124.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.128.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.164.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.168.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.176.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.224.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,119.29.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,121.51.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,129.28.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,129.204.0.0/16,🎯 全球直连,no-resolve
@@ -3280,61 +3346,46 @@ rules:
   - IP-CIDR,132.232.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,134.175.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,146.56.192.0/18,🎯 全球直连,no-resolve
-  - IP-CIDR,148.70.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,150.109.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,150.109.32.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,150.109.64.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,150.109.96.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,152.136.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,162.14.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,162.62.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,170.106.130.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,182.254.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,188.131.128.0/17,🎯 全球直连,no-resolve
   - IP-CIDR,203.195.128.0/17,🎯 全球直连,no-resolve
-  - IP-CIDR,203.205.128.0/17,🎯 全球直连,no-resolve
-  - IP-CIDR,210.4.138.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,211.152.128.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,211.152.132.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,211.152.148.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.128.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.144.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.158.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.180.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.208.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.212.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.218.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.220.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.248.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,212.64.0.0/17,🎯 全球直连,no-resolve
   - IP-CIDR,212.129.128.0/17,🎯 全球直连,no-resolve
-  - IP-CIDR,45.113.192.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,63.217.23.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,45.113.194.0/23,🎯 全球直连,no-resolve
   - IP-CIDR,63.243.252.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,103.235.44.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,104.193.88.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,106.12.0.0/15,🎯 全球直连,no-resolve
   - IP-CIDR,114.28.224.0/20,🎯 全球直连,no-resolve
-  - IP-CIDR,119.63.192.0/21,🎯 全球直连,no-resolve
-  - IP-CIDR,180.76.0.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,180.76.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,182.61.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,185.10.104.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,185.10.105.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,202.46.48.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,203.90.238.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,43.254.0.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,45.249.212.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,49.4.0.0/17,🎯 全球直连,no-resolve
-  - IP-CIDR,78.101.192.0/19,🎯 全球直连,no-resolve
-  - IP-CIDR,78.101.224.0/20,🎯 全球直连,no-resolve
-  - IP-CIDR,81.52.161.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,85.97.220.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,103.31.200.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.69.140.0/23,🎯 全球直连,no-resolve
   - IP-CIDR,103.218.216.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,114.115.128.0/17,🎯 全球直连,no-resolve
   - IP-CIDR,114.116.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,116.63.128.0/18,🎯 全球直连,no-resolve
   - IP-CIDR,116.66.184.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.96.0/20,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.128.0/21,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.136.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.141.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.142.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.243.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.244.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.251.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,117.78.0.0/18,🎯 全球直连,no-resolve
   - IP-CIDR,119.3.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,119.8.0.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,119.8.32.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,121.36.0.0/17,🎯 全球直连,no-resolve
   - IP-CIDR,121.36.128.0/18,🎯 全球直连,no-resolve
@@ -3363,37 +3414,7 @@ rules:
   - IP-CIDR,159.138.96.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,159.138.112.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,159.138.125.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,159.138.128.0/18,🎯 全球直连,no-resolve
-  - IP-CIDR,159.138.192.0/20,🎯 全球直连,no-resolve
-  - IP-CIDR,159.138.223.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,159.138.224.0/19,🎯 全球直连,no-resolve
-  - IP-CIDR,168.195.92.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,185.176.76.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,197.199.0.0/18,🎯 全球直连,no-resolve
-  - IP-CIDR,197.210.163.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,197.252.1.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,197.252.2.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,197.252.4.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,197.252.8.0/21,🎯 全球直连,no-resolve
-  - IP-CIDR,200.32.52.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,200.32.54.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,200.32.57.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.0.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.4.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.8.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.11.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.13.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.20.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.22.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.24.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.26.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.29.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.33.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.38.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.40.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.43.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.48.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.50.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.128.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,42.186.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,45.127.128.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,45.195.24.0/24,🎯 全球直连,no-resolve
@@ -3417,7 +3438,6 @@ rules:
   - IP-CIDR,103.72.128.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,103.74.24.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,103.74.48.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.126.92.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,103.129.252.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,103.131.252.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,103.135.240.0/22,🎯 全球直连,no-resolve
@@ -3431,7 +3451,11 @@ rules:
   - IP-CIDR,123.58.160.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,223.252.192.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
-  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.192.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.194.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.196.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.200.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.208.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
