@@ -6,17 +6,17 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: CFnat, server: 127.0.0.1, port: 1234, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: true, tfo: false, skip-cert-verify: true, servername: little-thunder-d99c.linzf5039.workers.dev, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点, server: 103.21.245.117, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 2, server: 104.16.120.226, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 3, server: 104.24.57.208, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 4, server: 172.64.61.130, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 5, server: 103.21.244.217, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 6, server: 104.16.200.209, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 7, server: 104.24.18.132, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 8, server: 141.101.93.192, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 9, server: 172.64.251.247, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 10, server: 188.114.96.205, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
-  - {name: CF随机节点 11, server: 190.93.242.151, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点, server: 103.21.244.87, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 2, server: 104.16.182.151, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 3, server: 104.24.103.65, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 4, server: 172.64.204.91, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 5, server: 103.21.245.178, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 6, server: 104.16.87.118, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 7, server: 104.24.243.152, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 8, server: 141.101.66.23, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 9, server: 172.64.248.205, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 10, server: 188.114.103.246, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
+  - {name: CF随机节点 11, server: 190.93.243.138, port: 80, type: vless, uuid: 47d9eadc-c723-4c57-ab04-ec0270de4647, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: little-thunder-d99c.linzf5039.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -2799,6 +2799,22 @@ rules:
   - DOMAIN-SUFFIX,cctv.com,🎯 全球直连
   - DOMAIN-SUFFIX,cctvpic.com,🎯 全球直连
   - DOMAIN-SUFFIX,livechina.com,🎯 全球直连
+  - DOMAIN,auth.wosms.cn,🎯 全球直连
+  - DOMAIN,config.cmpassport.com,🎯 全球直连
+  - DOMAIN,enrichgw.10010.com,🎯 全球直连
+  - DOMAIN,hmrz.wo.cn,🎯 全球直连
+  - DOMAIN,id.mail.wo.cn,🎯 全球直连
+  - DOMAIN,log.cmpassport.com,🎯 全球直连
+  - DOMAIN,log1.cmpassport.com,🎯 全球直连
+  - DOMAIN,mdn.open.wo.cn,🎯 全球直连
+  - DOMAIN,nishub1.10010.com,🎯 全球直连
+  - DOMAIN,opencloud.wostore.cn,🎯 全球直连
+  - DOMAIN,ye.dun.163yun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,auth.wo.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,cmpassport.com,🎯 全球直连
+  - DOMAIN-SUFFIX,id6.me,🎯 全球直连
+  - DOMAIN-SUFFIX,mob.com,🎯 全球直连
+  - DOMAIN-SUFFIX,open.e.189.cn,🎯 全球直连
   - DOMAIN-SUFFIX,21cn.com,🎯 全球直连
   - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
   - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
@@ -2807,6 +2823,7 @@ rules:
   - DOMAIN-SUFFIX,edgesrv.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyu.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyu.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,douyucdn.cn,🎯 全球直连
   - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
   - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
